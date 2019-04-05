@@ -1,0 +1,87 @@
+.container{
+    display: flex;
+    flex-direction:column;
+}
+.kontejner2{
+  display: flex;
+  flex-direction: row;
+}
+body{   
+    font-family: Verdana, sans-serif; 
+    margin:0
+} 
+.header{
+  display: flex;
+  flex-direction: column;
+  color: darkblue;
+  width: 100%;
+}
+.kontejner1{
+  display: flex;
+  flex-direction:column;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+
+
+
+
+
+
+
+
+.slajd{
+background-image: url(slike/prvi.jpg);
+background-repeat: no-repeat;
+background-size:contain;
+height: 600px;
+width: 60%;
+border-left:50px, rgb(76, 147, 175);
+border-right: 50px,  rgb(76, 91, 175);
+}
+.kontejner2{
+
+  display: flex;
+  flex-direction: row;
+}
+.podkontejner2{
+  display:flex;
+  flex-direction: column;
+}
+.novosti{
+  background:lightskyblue;
+  color:red;
+  width: 40%;
+}
+  .footer{
+      background-color:darkblue;
+      color: white;
+      height: 100px;
+  }
